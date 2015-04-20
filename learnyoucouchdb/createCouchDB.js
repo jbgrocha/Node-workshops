@@ -16,10 +16,12 @@ var options = {
 }
 
 function callback(err, response, body) {
-  if (err)
-    throw err;
-  if (response.statusCode !== 201)
-    throw new Error("Could not create database. " + body);
+  if (err) {
+    throw err
+  }
+  if (response.statusCode !== 201) {
+    throw new Error("Could not create database. " + body)
+  }
 }
 
 
