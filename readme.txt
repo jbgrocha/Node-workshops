@@ -1,4 +1,4 @@
-Collection of solutions to nodeschool workshops and some utilities created
+Collection of solutions to nodeschool workshops and some helper utilities
  - async-you
  - functional-javascript
  - javascripting
