@@ -6,3 +6,4 @@ Collection of solutions to nodeschool workshops and some utilities created
  - stream-adventure
  - how-to-npm
  - learnyoucouch
+ - browserfy-adventure
