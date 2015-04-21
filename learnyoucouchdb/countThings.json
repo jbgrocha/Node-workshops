@@ -1,0 +1,11 @@
+{
+  "_id": "_design/languages",
+
+  "language": "javascript",
+  "views": {
+    "languages": {
+      "map": "function(doc){emit(null, doc);};",
+      "reduce": "function(key, values, rereduce) {return key.length};"
+    }
+  }
+}
