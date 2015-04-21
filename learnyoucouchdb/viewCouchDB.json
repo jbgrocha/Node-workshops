@@ -1,0 +1,10 @@
+{
+  "_id": "_design/thingsMadeOfMetal",
+  
+  "language": "javascript",
+  "views": {
+    "thingsMadeOfMetal": {
+      "map": "function(doc){ if(doc.material == 'metal') {emit(null, doc);}};"
+    }
+  }
+}
